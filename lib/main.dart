@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'ui/screens/register_patient_screen.dart';
+import 'ui/screens/login_screen.dart';
 import 'ui/theme/app_theme.dart';
 
 void main() {
@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
       themeMode: ThemeMode.light,
-      home: const RegisterPatientScreen(),
+      home: const LoginScreen(),
     );
   }
 }
